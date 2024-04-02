@@ -143,8 +143,10 @@ header section {
 }
 .box-container {
     display: grid; /**organiza automaticamente varios itens**/
-    grid-template-columns: repeat(auto-fit, minmax(40rem,1rem));
+    grid-template-columns: repeat(auto-fit, minmax(30rem,3rem));
     gap: 1.5rem;
+    padding-left: 20rem;
+    align-items: center;
 }
 .menu .box-container .box {
     text-align: center;
@@ -203,7 +205,12 @@ header section {
     align-items: center center;
     flex-direction:column;
 }
-.ad
+.address .iframe {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 3rem;
+}
 .footer{
     text-align: center;
 }
