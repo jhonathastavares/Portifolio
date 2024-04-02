@@ -25,6 +25,13 @@ section{
     margin: 0 auto;
     max-width: 1200px;
 }
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 99;
+}
 .header {
     position:fixed ;
     top: 0;
@@ -68,8 +75,12 @@ header section {
     background: url('imagens/home-img.jpg');
     height: 100vh;
     background-position: center;
-    background-size: cover;
     padding-top: 10px;
+}
+.home-container section {
+    display: flex;
+    align-items: center;
+    min-height: 100vh;
 }
 .btn {
     background: var(--mais-color);
@@ -82,15 +93,20 @@ header section {
 }
 .content {
     max-width: 60rem;
+    padding-bottom: 3rem;
 }
-.contente h3 {
+.content h3 {
     color: white;
-    font-size: 6rem;
+    font-size: 2.5rem;
+    padding-bottom: 1rem;
 }
 .content p {
     color: white;
-    font-size: 2rem;
+    font-size: 1.8rem;
     font-weight: 100;
     line-height: 1.8;
-    padding: 1rem 0;
+    padding-bottom: 2rem;
+}
+.about {
+    
 }
